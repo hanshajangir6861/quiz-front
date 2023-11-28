@@ -14,7 +14,7 @@ function AllQuestion() {
 
 
   useEffect(() => {
-    axios.get("http://localhost:8000/data/ques")
+    axios.get("https://quiz-back-7jtd.onrender.com/data/ques")
       .then((result) => {
         setQuestion(result.data)
       })

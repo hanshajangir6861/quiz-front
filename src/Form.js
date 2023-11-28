@@ -16,7 +16,7 @@ const [answer , setAnswer] = useState("")
 
 
 const handleSubmit = async()=>{
-  let result = await axios.post("http://localhost:8000/data/add" , {question,option1,option2,option3,option4 ,answer} )
+  let result = await axios.post("https://quiz-back-7jtd.onrender.com/data/add" , {question,option1,option2,option3,option4 ,answer} )
 result = result.data
 console.log(result)
 if(result)
