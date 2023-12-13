@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#quizform {
+    height: 614px;
+    width: 600px;
+    border: 1px solid black;
+    margin-left: 350px;
+    box-shadow: 4px 4px 4px black;
+    border-radius: 31px;
+}
+input#question {
+    height: 31px;
+    width: 225px;
+    margin-left: -9px;
+    margin-top: 48px;
+}
+input#option1 {
+   height: 31px;
+    width: 225px;
+    margin-top: 48px;
+}
+input#option2 {
+    height: 31px;
+    width: 225px;
+    margin-top: 48px;
+}
+input#option3 {
+    height: 31px;
+    width: 225px;
+    margin-top: 48px;;
+}
+input#option4 {
+    height: 31px;
+    width: 225px;
+    margin-top: 48px;
+}
+input#Answer {
+    height: 31px;
+    width: 225px;
+    margin-top: 48px;
+    margin-left: 14px;
+}
+label {
+    margin: 118px;
+    font-size: 23px;
+}
+.submit{
+    margin-left: 225px;
+    margin-top: 57px;
+    height: 44px;
+    width: 109px;
+    background-color: grey;
+    color: aliceblue;
+    border: navajowhite;
+    border-radius: 13px;
+    cursor: pointer;
+}

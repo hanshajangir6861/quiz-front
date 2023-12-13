@@ -1,0 +1,13 @@
+p {
+    font-size: 24px;
+}
+.chack{
+
+    height: 40px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px black;
+    margin: 7px;
+    cursor: pointer;
+}
